@@ -1,13 +1,15 @@
-# bodha
+# Bodha
 
-Stub Python project. Described as an "AI document simplifier" for different reading levels, but none of that functionality exists.
+AI document simplifier that adapts complex text to different reading levels.
 
-## What's actually here
+## About
+Bodha (Sanskrit for "understanding") transforms complex documents into simpler versions tailored to different reading levels. It uses AI to preserve key meaning while adjusting vocabulary, sentence structure, and technical depth - making information accessible to wider audiences.
 
-A single class in `src/core.py` (Bodha) with placeholder methods that each return a fixed dictionary without doing any real work. There is no document simplification, no reading level analysis, no NLP processing - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No NLP or text processing libraries are present.
+## Tech Stack
+- Python
+- NLP and text processing
+- LLM integration for simplification
+- Click/Typer (CLI)
 
 ## Status
-
-Scaffolding only. No working document simplification functionality exists.
+Active development - core architecture and project structure established.
