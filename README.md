@@ -1,43 +1,13 @@
 # bodha
 
-**Bodha — AI Document Simplifier. Simplify complex documents for different reading levels.**
+Stub Python project. Described as an "AI document simplifier" for different reading levels, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (Bodha) with placeholder methods that each return a fixed dictionary without doing any real work. There is no document simplification, no reading level analysis, no NLP processing - just stubs.
 
-## Quick Start
-```python
-from src.core import Bodha
- instance = Bodha()
-r = instance.process(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No NLP or text processing libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `process()` | Process |
-| `analyze()` | Analyze |
-| `transform()` | Transform |
-| `validate()` | Validate |
-| `export()` | Export |
-| `get_stats()` | Get stats |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
-## License
-(c) 2026 Officethree Technologies. All Rights Reserved.
+Scaffolding only. No working document simplification functionality exists.
